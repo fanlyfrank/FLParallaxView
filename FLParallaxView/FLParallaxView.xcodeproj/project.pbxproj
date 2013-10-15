@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		358F42ED180CE26B00137873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358F42EC180CE26B00137873 /* Foundation.framework */; };
+		358F42EF180CE26B00137873 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358F42EE180CE26B00137873 /* CoreGraphics.framework */; };
+		358F42F1180CE26B00137873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358F42F0180CE26B00137873 /* UIKit.framework */; };
+		358F42F7180CE26B00137873 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 358F42F5180CE26B00137873 /* InfoPlist.strings */; };
+		358F42F9180CE26B00137873 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F42F8180CE26B00137873 /* main.m */; };
+		358F42FD180CE26B00137873 /* FLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F42FC180CE26B00137873 /* FLAppDelegate.m */; };
+		358F4300180CE26B00137873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 358F42FE180CE26B00137873 /* Main.storyboard */; };
+		358F4303180CE26B00137873 /* FLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F4302180CE26B00137873 /* FLViewController.m */; };
+		358F4305180CE26B00137873 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358F4304180CE26B00137873 /* Images.xcassets */; };
+		358F430C180CE26B00137873 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358F430B180CE26B00137873 /* XCTest.framework */; };
+		358F430D180CE26B00137873 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358F42EC180CE26B00137873 /* Foundation.framework */; };
+		358F430E180CE26B00137873 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358F42F0180CE26B00137873 /* UIKit.framework */; };
+		358F4316180CE26B00137873 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 358F4314180CE26B00137873 /* InfoPlist.strings */; };
+		358F4318180CE26B00137873 /* FLParallaxViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F4317180CE26B00137873 /* FLParallaxViewTests.m */; };
+		358F4326180CE2F000137873 /* hewanglan_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358F4323180CE2F000137873 /* hewanglan_0.jpg */; };
+		358F4327180CE2F000137873 /* hewanglan_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358F4324180CE2F000137873 /* hewanglan_1.jpg */; };
+		358F4328180CE2F000137873 /* hewanglan_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 358F4325180CE2F000137873 /* hewanglan_2.jpg */; };
+		358F432D180CE33D00137873 /* FLParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F432C180CE33D00137873 /* FLParallaxView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		358F430F180CE26B00137873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 358F42E1180CE26B00137873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 358F42E8180CE26B00137873;
+			remoteInfo = FLParallaxView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		358F42E9180CE26B00137873 /* FLParallaxView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLParallaxView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		358F42EC180CE26B00137873 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		358F42EE180CE26B00137873 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		358F42F0180CE26B00137873 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		358F42F4180CE26B00137873 /* FLParallaxView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLParallaxView-Info.plist"; sourceTree = "<group>"; };
+		358F42F6180CE26B00137873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		358F42F8180CE26B00137873 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		358F42FA180CE26B00137873 /* FLParallaxView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLParallaxView-Prefix.pch"; sourceTree = "<group>"; };
+		358F42FB180CE26B00137873 /* FLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLAppDelegate.h; sourceTree = "<group>"; };
+		358F42FC180CE26B00137873 /* FLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAppDelegate.m; sourceTree = "<group>"; };
+		358F42FF180CE26B00137873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		358F4301180CE26B00137873 /* FLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLViewController.h; sourceTree = "<group>"; };
+		358F4302180CE26B00137873 /* FLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLViewController.m; sourceTree = "<group>"; };
+		358F4304180CE26B00137873 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		358F430A180CE26B00137873 /* FLParallaxViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLParallaxViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		358F430B180CE26B00137873 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		358F4313180CE26B00137873 /* FLParallaxViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLParallaxViewTests-Info.plist"; sourceTree = "<group>"; };
+		358F4315180CE26B00137873 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		358F4317180CE26B00137873 /* FLParallaxViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLParallaxViewTests.m; sourceTree = "<group>"; };
+		358F4323180CE2F000137873 /* hewanglan_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hewanglan_0.jpg; sourceTree = "<group>"; };
+		358F4324180CE2F000137873 /* hewanglan_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hewanglan_1.jpg; sourceTree = "<group>"; };
+		358F4325180CE2F000137873 /* hewanglan_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hewanglan_2.jpg; sourceTree = "<group>"; };
+		358F432B180CE33D00137873 /* FLParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLParallaxView.h; sourceTree = "<group>"; };
+		358F432C180CE33D00137873 /* FLParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLParallaxView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358F42E6180CE26B00137873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358F42EF180CE26B00137873 /* CoreGraphics.framework in Frameworks */,
+				358F42F1180CE26B00137873 /* UIKit.framework in Frameworks */,
+				358F42ED180CE26B00137873 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358F4307180CE26B00137873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358F430C180CE26B00137873 /* XCTest.framework in Frameworks */,
+				358F430E180CE26B00137873 /* UIKit.framework in Frameworks */,
+				358F430D180CE26B00137873 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		358F42E0180CE26B00137873 = {
+			isa = PBXGroup;
+			children = (
+				358F42F2180CE26B00137873 /* FLParallaxView */,
+				358F4311180CE26B00137873 /* FLParallaxViewTests */,
+				358F42EB180CE26B00137873 /* Frameworks */,
+				358F42EA180CE26B00137873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		358F42EA180CE26B00137873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358F42E9180CE26B00137873 /* FLParallaxView.app */,
+				358F430A180CE26B00137873 /* FLParallaxViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		358F42EB180CE26B00137873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				358F42EC180CE26B00137873 /* Foundation.framework */,
+				358F42EE180CE26B00137873 /* CoreGraphics.framework */,
+				358F42F0180CE26B00137873 /* UIKit.framework */,
+				358F430B180CE26B00137873 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		358F42F2180CE26B00137873 /* FLParallaxView */ = {
+			isa = PBXGroup;
+			children = (
+				358F4329180CE30800137873 /* View */,
+				358F432A180CE31700137873 /* Controller */,
+				358F42FB180CE26B00137873 /* FLAppDelegate.h */,
+				358F42FC180CE26B00137873 /* FLAppDelegate.m */,
+				358F4304180CE26B00137873 /* Images.xcassets */,
+				358F42F3180CE26B00137873 /* Supporting Files */,
+				358F4321180CE2AA00137873 /* Resource */,
+			);
+			path = FLParallaxView;
+			sourceTree = "<group>";
+		};
+		358F42F3180CE26B00137873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				358F42F4180CE26B00137873 /* FLParallaxView-Info.plist */,
+				358F42F5180CE26B00137873 /* InfoPlist.strings */,
+				358F42F8180CE26B00137873 /* main.m */,
+				358F42FA180CE26B00137873 /* FLParallaxView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358F4311180CE26B00137873 /* FLParallaxViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				358F4317180CE26B00137873 /* FLParallaxViewTests.m */,
+				358F4312180CE26B00137873 /* Supporting Files */,
+			);
+			path = FLParallaxViewTests;
+			sourceTree = "<group>";
+		};
+		358F4312180CE26B00137873 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				358F4313180CE26B00137873 /* FLParallaxViewTests-Info.plist */,
+				358F4314180CE26B00137873 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		358F4321180CE2AA00137873 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				358F4322180CE2D400137873 /* ImgRes */,
+				358F42FE180CE26B00137873 /* Main.storyboard */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		358F4322180CE2D400137873 /* ImgRes */ = {
+			isa = PBXGroup;
+			children = (
+				358F4323180CE2F000137873 /* hewanglan_0.jpg */,
+				358F4324180CE2F000137873 /* hewanglan_1.jpg */,
+				358F4325180CE2F000137873 /* hewanglan_2.jpg */,
+			);
+			name = ImgRes;
+			sourceTree = "<group>";
+		};
+		358F4329180CE30800137873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				358F432B180CE33D00137873 /* FLParallaxView.h */,
+				358F432C180CE33D00137873 /* FLParallaxView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		358F432A180CE31700137873 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				358F4301180CE26B00137873 /* FLViewController.h */,
+				358F4302180CE26B00137873 /* FLViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		358F42E8180CE26B00137873 /* FLParallaxView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358F431B180CE26B00137873 /* Build configuration list for PBXNativeTarget "FLParallaxView" */;
+			buildPhases = (
+				358F42E5180CE26B00137873 /* Sources */,
+				358F42E6180CE26B00137873 /* Frameworks */,
+				358F42E7180CE26B00137873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLParallaxView;
+			productName = FLParallaxView;
+			productReference = 358F42E9180CE26B00137873 /* FLParallaxView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		358F4309180CE26B00137873 /* FLParallaxViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358F431E180CE26B00137873 /* Build configuration list for PBXNativeTarget "FLParallaxViewTests" */;
+			buildPhases = (
+				358F4306180CE26B00137873 /* Sources */,
+				358F4307180CE26B00137873 /* Frameworks */,
+				358F4308180CE26B00137873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358F4310180CE26B00137873 /* PBXTargetDependency */,
+			);
+			name = FLParallaxViewTests;
+			productName = FLParallaxViewTests;
+			productReference = 358F430A180CE26B00137873 /* FLParallaxViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		358F42E1180CE26B00137873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FL;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "fanly frank";
+				TargetAttributes = {
+					358F4309180CE26B00137873 = {
+						TestTargetID = 358F42E8180CE26B00137873;
+					};
+				};
+			};
+			buildConfigurationList = 358F42E4180CE26B00137873 /* Build configuration list for PBXProject "FLParallaxView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 358F42E0180CE26B00137873;
+			productRefGroup = 358F42EA180CE26B00137873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				358F42E8180CE26B00137873 /* FLParallaxView */,
+				358F4309180CE26B00137873 /* FLParallaxViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358F42E7180CE26B00137873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358F4305180CE26B00137873 /* Images.xcassets in Resources */,
+				358F4327180CE2F000137873 /* hewanglan_1.jpg in Resources */,
+				358F4328180CE2F000137873 /* hewanglan_2.jpg in Resources */,
+				358F42F7180CE26B00137873 /* InfoPlist.strings in Resources */,
+				358F4326180CE2F000137873 /* hewanglan_0.jpg in Resources */,
+				358F4300180CE26B00137873 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358F4308180CE26B00137873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358F4316180CE26B00137873 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358F42E5180CE26B00137873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358F42FD180CE26B00137873 /* FLAppDelegate.m in Sources */,
+				358F432D180CE33D00137873 /* FLParallaxView.m in Sources */,
+				358F42F9180CE26B00137873 /* main.m in Sources */,
+				358F4303180CE26B00137873 /* FLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		358F4306180CE26B00137873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358F4318180CE26B00137873 /* FLParallaxViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		358F4310180CE26B00137873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 358F42E8180CE26B00137873 /* FLParallaxView */;
+			targetProxy = 358F430F180CE26B00137873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		358F42F5180CE26B00137873 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358F42F6180CE26B00137873 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		358F42FE180CE26B00137873 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358F42FF180CE26B00137873 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		358F4314180CE26B00137873 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				358F4315180CE26B00137873 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		358F4319180CE26B00137873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		358F431A180CE26B00137873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358F431C180CE26B00137873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLParallaxView/FLParallaxView-Prefix.pch";
+				INFOPLIST_FILE = "FLParallaxView/FLParallaxView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		358F431D180CE26B00137873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLParallaxView/FLParallaxView-Prefix.pch";
+				INFOPLIST_FILE = "FLParallaxView/FLParallaxView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		358F431F180CE26B00137873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FLParallaxView.app/FLParallaxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLParallaxView/FLParallaxView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FLParallaxViewTests/FLParallaxViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		358F4320180CE26B00137873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FLParallaxView.app/FLParallaxView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLParallaxView/FLParallaxView-Prefix.pch";
+				INFOPLIST_FILE = "FLParallaxViewTests/FLParallaxViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358F42E4180CE26B00137873 /* Build configuration list for PBXProject "FLParallaxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358F4319180CE26B00137873 /* Debug */,
+				358F431A180CE26B00137873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358F431B180CE26B00137873 /* Build configuration list for PBXNativeTarget "FLParallaxView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358F431C180CE26B00137873 /* Debug */,
+				358F431D180CE26B00137873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		358F431E180CE26B00137873 /* Build configuration list for PBXNativeTarget "FLParallaxViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358F431F180CE26B00137873 /* Debug */,
+				358F4320180CE26B00137873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 358F42E1180CE26B00137873 /* Project object */;
+}
