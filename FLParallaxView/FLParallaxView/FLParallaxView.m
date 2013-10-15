@@ -79,7 +79,7 @@
                      / self.frame.size.width);
     
     UIView *parallaxView = [_parallaxViewDataSource parallaxView:self viewForIndex:page + 1];
-    if (parallaxView) {
+    if (parallaxView && ![parallaxViews containsObject:parallaxView]) {
         [parallaxViews addObject:parallaxView];
         [self locateAndWarpParallaxViewInIndex:page + 1];
     }
