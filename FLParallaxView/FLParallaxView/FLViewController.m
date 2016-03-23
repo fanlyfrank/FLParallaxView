@@ -43,10 +43,8 @@
 
 - (UIView *)parallaxView:(FLParallaxView *)view viewForIndex:(NSInteger)index
 {
-    
-    UIImageView *itemView = [[UIImageView alloc]
-                            initWithImage:[UIImage imageNamed:
-                                           [NSString stringWithFormat:@"hewanglan_%ld.jpg", index]]];
+    UIImageView *itemView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:
+[NSString stringWithFormat:@"hewanglan_%ld.jpg", index]]];
 
     return itemView;
 }

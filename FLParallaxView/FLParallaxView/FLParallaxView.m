@@ -93,17 +93,17 @@
         
         numberOfItemViews = [_parallaxViewDataSource numberOfItemViews];
       
-        UIView *parallaxOne = [_parallaxViewDataSource parallaxView:self viewForIndex:0];
-        UIView *parallaxTow = [_parallaxViewDataSource parallaxView:self viewForIndex:1];
-        
-        if (parallaxOne) {
-            [parallaxViews addObject:parallaxOne];
-            [self locateAndWarpParallaxViewInIndex:0];
-        }
-        
-        if (parallaxTow) {
-            [parallaxViews addObject:parallaxTow];
-            [self locateAndWarpParallaxViewInIndex:1];
+        for (int i = 0; i < numberOfItemViews; i ++) {
+            
+            UIView *parallaxView = [_parallaxViewDataSource parallaxView:self viewForIndex:i];
+            
+            if (!parallaxView) {
+                NSLog(@"index at %d need a view", i);
+                abort();
+            }
+            
+            [parallaxViews addObject:parallaxView];
+            [self locateAndWarpParallaxViewInIndex:i];
         }
     }
 }
@@ -115,6 +115,8 @@
         UIView *parallaxView = [parallaxViews objectAtIndex:i];
         
         CGRect frame = parallaxView.frame;
+        
+        NSLog(@"parallax view frame is %@", NSStringFromCGSize(frame.size));
         
         frame.origin.x = self.contentOffset.x * _parallaxCoefficient -
         i * _parallaxCoefficient * self.frame.size.width;
