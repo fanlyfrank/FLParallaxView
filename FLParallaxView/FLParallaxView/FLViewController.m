@@ -19,7 +19,8 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor orangeColor];
-    FLParallaxView *parallaxView = [[FLParallaxView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
+    CGSize screenSize = [UIScreen mainScreen].bounds.size;
+    FLParallaxView *parallaxView = [[FLParallaxView alloc] initWithFrame:CGRectMake(0, 0, screenSize.width, screenSize.height)];
     
     parallaxView.parallaxViewDataSource = self;
     parallaxView.parallaxViewDelegate = self;
@@ -45,13 +46,14 @@
     
     UIImageView *itemView = [[UIImageView alloc]
                             initWithImage:[UIImage imageNamed:
-                                           [NSString stringWithFormat:@"hewanglan_%d.jpg", index]]];
+                                           [NSString stringWithFormat:@"hewanglan_%ld.jpg", index]]];
 
     return itemView;
 }
 
 - (void)selectParallaxViewAtIndex:(NSInteger)index
 {
-    NSLog(@"Item view %d is selected!", index);
+    NSLog(@"Item view %ld is selected!", index);
 }
+
 @end
