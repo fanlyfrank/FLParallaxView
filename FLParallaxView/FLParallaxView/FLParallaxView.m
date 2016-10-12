@@ -78,6 +78,8 @@
     int page = floor(scrollView.contentOffset.x
                      / self.frame.size.width);
     NSLog(@"current page is %d", page);
+    if (page > numberOfItemViews)   return;
+
     UIView *parallaxView = [_parallaxViewDataSource parallaxView:self viewForIndex:page + 1];
     if (parallaxView && ![parallaxViews containsObject:parallaxView]) {
         [parallaxViews addObject:parallaxView];
@@ -115,8 +117,6 @@
         UIView *parallaxView = [parallaxViews objectAtIndex:i];
         
         CGRect frame = parallaxView.frame;
-        
-        NSLog(@"parallax view frame is %@", NSStringFromCGSize(frame.size));
         
         frame.origin.x = self.contentOffset.x * _parallaxCoefficient -
         i * _parallaxCoefficient * self.frame.size.width;
